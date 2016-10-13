@@ -1,0 +1,79 @@
+#thumbnail{
+	border: 0px;
+}
+.n1{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-left: 150px solid #68BCE7;
+	border-top: 150px solid transparent;
+	border-bottom: 150px solid transparent;
+}
+.n2{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-top:150px solid #ED8120;
+	border-right: 150px solid transparent;
+	border-left: 150px solid transparent;
+}
+.n3{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-top:106px solid rgb(14,160,14);
+	border-right: 106px solid transparent;
+	border-left: 106px solid transparent;
+}
+.n4{
+	position: absolute;
+	width: 225px;
+}
+.n4-1{
+	width: 0px;
+	height: 0px;
+	border-bottom:75px solid rgb(229,0,206);
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+}
+.n4-2{
+	width: 0px;
+	height: 0px;
+	border-top:75px solid rgb(229,0,206);
+	border-right:75px solid transparent;
+	border-left: 75px solid transparent;
+	position: absolute;
+	left: 74px;
+	top: 0px;
+}
+.n5{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-top:53px solid #00E5A5;
+	border-right: 53px solid #00E5A5;
+	border-left: 53px solid #00E5A5;
+	border-bottom: 53px solid #00E5A5;
+}
+.n6{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-right:75px solid rgb(234,229,0);
+	border-top: 75px solid transparent;
+	border-bottom: 75px solid transparent;
+}
+.n7{
+	position: absolute;
+	width: 0px;
+	height: 0px;
+	border-top:75px solid #0040E5;
+	border-right: 75px solid transparent;
+	border-left: 75px solid transparent;
+}
+/*块散落*/
+#bigworld{
+	position:relative;
+	height: 1170px;
+	margin:5px;
+}
