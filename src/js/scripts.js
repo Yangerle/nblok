@@ -113,14 +113,14 @@ $(function () {
 	});
 	$('body').on('mouseup mousemove', function(event) {
 		event.preventDefault();
+        clearInterval(setI1);
+        clearInterval(setI2);
 		switch(event.type){
 			case "mouseup":
 			
 			$drag=null;
 			break;
 			case "mousemove":
-			clearInterval(setI1);
-			clearInterval(setI2);
 			if ($drag!==null) {
 				    clientX=event.clientX-correct;
 				    clientY=event.clientY;
