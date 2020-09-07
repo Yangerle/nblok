@@ -1,3 +1,22 @@
+html{
+	height: 100%
+}
+body{
+	height: 100%
+}
+.container{
+	height: 100%;
+	overflow: hidden;
+}
+
+#myModal{
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+	overflow: hidden;
+    bottom: unset;
+}
+
 #thumbnail{
 	border: 0px;
 }
@@ -74,7 +93,8 @@
 /*块散落*/
 #bigworld{
 	position:relative;
-	height: 1170px;
+	height: 100%;
+	overflow: hidden;
 	margin:5px;
 	display: none;
 }

@@ -42,13 +42,13 @@ $(function () {
 // 随机散落
     $('#myModal').on('hidden.bs.modal', function() {
     	$('#bigworld>div').each(function(index) {
+    		var posy=pos($(window).height()-200)+50;
     		var posx=pos(650)+150;
-    		var posy=pos(650)+150;
     		var deg=pos(360);
     		console.log($(this).css('z-index'));
     		$(this).css({
-    			top: posx,
-    			left: posy,
+    			top: posy,
+    			left: posx,
     			transform:'rotate('+deg+'deg)'
     		}).data('deg', deg).show();
     	});
