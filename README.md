@@ -1,6 +1,6 @@
 # nblok
 **this is a game**
->离线游戏，在github仓库中下载src文件，点击index.html文件即可用浏览器打开。
+>点击链接在web端游玩：https://yangerle.github.io/nblok/src
 
 七巧板游戏是中国古典游戏之一。
 七块具有数学规律的板与你的大脑相连接。
@@ -27,4 +27,4 @@
 * blabla
 
 # 你的想象超乎你想象
->https://github.com/Yangerle/nblok
+>https://github.com/Yangerle/nblok/src
